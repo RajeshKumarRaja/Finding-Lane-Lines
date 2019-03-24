@@ -1,8 +1,9 @@
 # **Finding Lane Lines on the Road** 
 
 ## Summary
-The objective of the Project is to detect lane lines in the test_images using OPEN_CV and python and
-later deploy the same technique to detect lanes in the test video
+
+The objective of the Project is to detect lane lines in the test_images using OPEN_CV and python and later deploy the same technique to detect lanes in the video
+
 ---
 
 **Finding Lane Lines on the Road**
