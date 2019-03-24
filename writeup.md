@@ -35,7 +35,7 @@ Polygon data points applied over the image are
 where imshape[0] is length of the image in Y -axis
 where imshape[1] is length of the image in X –axis
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+<img src="examples/Canny_Example.jpg" width="480" alt="Combined Image" />
 
 #### Step: 2 Hough transformation
 
@@ -50,6 +50,8 @@ The hough_lines detected are discontinuous lines and as per the Project expectat
 extrapolate them as a single solid line representing the lane. This is done in the extrapolation method
 draw_lines which is described in step3.
 
+
+
 #### Step: 3 Extrapolation of lines using draw_line method
 
 The output of HoughLinesP is series of line data points. Slope is calculated for these lines to segregate
@@ -61,15 +63,18 @@ fitline as (X1,Y1) and (X2,y2) points instead of line to find out the slope of R
 Once the slope of the line is found this can be extrapolated over the image with the lane starting point
 Y1 at the Ymax (length of Image Y axis) and the another point near the top of the region of interest
 (polygon we considered)
+<img src="examples/hough_Example.jpg" width="480" alt="Combined Image" />
+
 Finally this line is drawn over the image to produce the expected output.
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+<img src="examples/Overlay_Example.jpg" width="480" alt="Combined Image" />
+
 
 #### Step: 4 Detection of lane lines in the Video
 Next step is to extend this logic over the video and find the lanes lines with the use of helper function
 provided in the P1 project
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+<img src="examples/AnnotatedVideo_Example.jpg" width="480" alt="Combined Image" />
 
 ### 2. Potential shortcomings with current pipeline
 
