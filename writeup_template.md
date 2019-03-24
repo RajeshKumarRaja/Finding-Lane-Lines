@@ -35,7 +35,7 @@ Polygon data points applied over the image are
 where imshape[0] is length of the image in Y -axis
 where imshape[1] is length of the image in X –axis
 
-![alt text][image1]
+<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 #### Step: 2 Hough transformation
 
@@ -63,12 +63,13 @@ Y1 at the Ymax (length of Image Y axis) and the another point near the top of th
 (polygon we considered)
 Finally this line is drawn over the image to produce the expected output.
 
-![alt text][image1]
+<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 #### Step: 4 Detection of lane lines in the Video
 Next step is to extend this logic over the video and find the lanes lines with the use of helper function
 provided in the P1 project
 
+<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 ### 2. Potential shortcomings with current pipeline
 
