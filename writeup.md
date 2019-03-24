@@ -61,8 +61,8 @@ So the next job is to segregate the positive slope and negative slope aka Right 
 the segregated positive and negative slope lines are passed as an argument to the openCV function
 fitline as (X1,Y1) and (X2,y2) points instead of line to find out the slope of Right and left lane.
 Once the slope of the line is found this can be extrapolated over the image with the lane starting point
-Y1 at the Ymax (length of Image Y axis) and the another point near the top of the region of interest
-(polygon we considered)
+Y1 at the Ymax (length of Image Y axis) and the another point near the top of the region of interest (polygon we considered)
+
 <img src="examples/hough_Example.jpg" width="480" alt="Combined Image" />
 
 Finally this line is drawn over the image to produce the expected output.
