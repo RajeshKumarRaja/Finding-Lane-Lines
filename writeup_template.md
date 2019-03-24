@@ -6,7 +6,7 @@ The objective of the Project is to detect lane lines in the test_images using OP
 
 ---
 
-**Finding Lane Lines on the Road**
+## Finding Lane Lines on the Road
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 ---
 
-### Reflection
+## Reflection
 
 ### 1. Detection of Lane lines
 My pipeline has the following steps:
